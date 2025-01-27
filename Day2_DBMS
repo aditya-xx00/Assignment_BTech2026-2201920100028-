@@ -1,0 +1,5 @@
+Problem : Write an SQL query to clone a new table from another table.
+SQL Statement:
+    CREATE TABLE Worker_clone like worker;
+    insert into Worker_clone SELECT * from Worker;
+    select * from worker_clone;
